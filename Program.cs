@@ -22,7 +22,7 @@ namespace Operators_in_C_.pptx
             Console.WriteLine("upg2");
             int result1 = num1 + num2;
             int result2 = num3 * num4;
-            int result3 = num5 / num6;
+            int result3 = num5 % num6;
 
             Console.WriteLine(result1);
             Console.WriteLine(result2);
@@ -37,12 +37,12 @@ namespace Operators_in_C_.pptx
                 
             Console.WriteLine();
             Console.WriteLine("upg4");
-            int c = 10;
-            Console.WriteLine($"{c += num5}");
-            Console.WriteLine($"{c -= num5}");
-            Console.WriteLine($"{c *= num5}");
-            Console.WriteLine($"{c /= num5}");
-            Console.WriteLine($"{c %= num5}");
+        
+            Console.WriteLine($"{num1 += num5}");
+            Console.WriteLine($"{num1 -= num5}");
+            Console.WriteLine($"{num1 *= num5}");
+            Console.WriteLine($"{num1 /= num5}");
+            Console.WriteLine($"{num1 %= num5}");
 
         }
     }
